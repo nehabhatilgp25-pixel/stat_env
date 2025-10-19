@@ -1,5 +1,5 @@
 #include <NinjaIoT.h>
-#include "DHT.h"
+#include <DHT.h>
 
 NinjaIoT iot;
 
