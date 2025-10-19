@@ -13,6 +13,7 @@ void setup() {
   Serial.begin(115200);
   iot.connect("wifi", "pwd", "uid");  //link: https://iot.roboninja.in/
   dht.begin();
+  pinMode(D6, OUTPUT)
 }
 
 void loop() {
