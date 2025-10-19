@@ -8,7 +8,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
   Serial.begin(115200);
-  iot.connect("MSB_2G", "9900015169", "NB09");
+  iot.connect("wifi", "pwd", "uid");
 
   dht.begin();
 
